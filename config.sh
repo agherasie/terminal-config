@@ -1,21 +1,30 @@
+# INSTALLING CURL
 if command -v curl; then
 	echo "curl already installed."
 else
 	sudo apt install curl
 fi
+
+# INSTALLING FISH
 if command -v fish; then
 	echo "fish already installed."
 else
 	sudo apt install fish
 	chsh -s $(which fish)
 fi
+
+# INSTALLING NEOFETCH
 if command -v neofetch; then
 	echo "neofetch already installed."
 else
 	sudo apt install neofetch
 fi
+
+# ADDING NEOFETCH AND STARSHIP TO FISH
 echo "neofetch
 starship init fish | source" > ~/.config/fish/config.fish
+
+## INSTALLING STARSHIP
 STARSHIP=~/.config/starship.toml
 if test -f "$STARSHIP"; then
 	echo "starship already installed."
@@ -32,12 +41,7 @@ else
 	echo "starship installed !"
 fi
 
-if command -v cmake; then
-	echo "cmake already installed"
-else
-	sudo apt install cmake
-fi
-
+## INSTALLING SAKURA
 if command -v sakura; then
 	echo "sakura already installed."
 else
