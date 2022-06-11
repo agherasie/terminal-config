@@ -5,7 +5,7 @@ By the way, as of right now (and probably forever), it only works if you have `a
 # Usage
 
 Just run `config.sh` and follow the steps\
-You might need to log out and back in for all changes to take effect !\
+You might need to log out and back in for all changes to take effect !
 
 # What does this do ?
 This script will do the following:
@@ -21,6 +21,6 @@ This script will do the following:
 
 # What does this not do ?
 This script will not do the following:
-- Change your default terminal (so if you won't use sakura you can use `sudo apt remove sakura`)
-- Change your sakura theme (you can do so by right-clicking anywhere on the sakura window)
-- Destroy your computer (I think)
+- Change your default terminal (so if you won't use sakura you can do `sudo apt remove sakura`)
+- Change your sakura theme (you can do yourself so by right-clicking anywhere on the sakura window)
+- Destroy your computer (hopefully)
