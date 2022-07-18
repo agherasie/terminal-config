@@ -8,6 +8,9 @@ Just run `config.sh` and follow the steps\
 You might need to log out and back in for all changes to take effect !
 
 # What does this do ?
+
+![preview](./terminal.gif)
+
 This script will do the following:
 - Install fish
     - Change default shell to fish
