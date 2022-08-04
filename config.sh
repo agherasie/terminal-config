@@ -21,6 +21,8 @@ else
 fi
 
 # ADDING NEOFETCH AND STARSHIP TO FISH
+mkdir ~/.config/fish
+touch ~/.config/fish/config.fish
 echo "neofetch
 starship init fish | source" > ~/.config/fish/config.fish
 
